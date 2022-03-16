@@ -9,6 +9,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --accent: #f221aa;
+  --black: #666666;
+  color: var(--black);
 }
 
 code {
@@ -24,6 +26,11 @@ code {
 .App h1 {
   color: var(--accent);
   text-align: center;
+}
+
+.App hr {
+  border: 0px transparent;
+  border-top: 1px solid var(--black);
 }
 
 .content-wrapper {
