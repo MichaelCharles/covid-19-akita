@@ -59,7 +59,7 @@ const CovidLineChart = () => {
   }, []);
 
   const h =
-    typeof size.height === "undefined" ? size.height : window.innerHeight;
+    typeof size.height === "undefined" ? size.height : window.outerHeight;
   const w = typeof size.width === "undefined" ? size.width : window.innerWidth;
 
   return (
