@@ -23,4 +23,16 @@ code {
 
 .App h1 {
   color: var(--accent);
+  text-align: center;
+}
+
+.content-wrapper {
+  max-width: 1024px;
+  width: 100%;
+  padding: 0px 1em 0px 1em;
+  margin: 0 auto;
+}
+
+.content-wrapper p {
+  text-align: left;
 }
