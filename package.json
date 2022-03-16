@@ -1,5 +1,5 @@
 {
-  "name": "akita-covid-19",
+  "name": "covid-19-akita",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,5 +42,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "秋田県における新型コロナウイルス感染者の週平均推移",
+  "main": "src/index.tsx",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcaubrey/covid-19-akita.git"
+  },
+  "keywords": [
+    "covid",
+    "akita",
+    "japan",
+    "coronavirus"
+  ],
+  "author": "Michael Charles Aubrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcaubrey/covid-19-akita/issues"
+  },
+  "homepage": "https://github.com/mcaubrey/covid-19-akita#readme"
 }
