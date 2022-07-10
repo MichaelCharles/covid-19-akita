@@ -51,7 +51,16 @@ const CovidLineChart = () => {
       return a;
     });
 
-    setData(finalData);
+    setData(
+      finalData.filter((a: any) => {
+        return (
+          new Date(a.date).getTime() >
+          new Date(
+            "2022-" + `${new Date().getMonth() - 2}`.padStart(2, "0") + "-01"
+          ).getTime()
+        );
+      })
+    );
   };
 
   useEffect(() => {
